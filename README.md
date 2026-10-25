@@ -8,9 +8,9 @@ Slayin is © FDG Entertainment / Pixelicious; this is a fan compatibility rebuil
 The latest release, [v2.0.13-64](https://github.com/firestarter1996/Slayin64/releases/latest), has two APKs:
 
 - `Slayin64-arm64.apk`: the faithful game.
-- `Slayin64-Unlimited-arm64.apk`: same package and title (`com.heyitsj0n.slayin64` / "Slayin64") with the `SLAYIN_CHEAT` define: 999,999 fame points and no debit.
+- `Slayin64-Unlimited-arm64.apk`: same package and title (`com.firestarter1996.slayin64` / "Slayin64") with the `SLAYIN_CHEAT` define: 999,999 fame points and no debit.
 
-Both are debug signed by Unity; install with `pm install -r` (same signature, so either replaces the other).
+Both are signed with my local Android debug key; install with `pm install -r` (same signature, so either replaces the other).
 
 ## How it was made
 1. AssetRipper 2.0 export of the original APK (Unity 4.5.5), opened in **Unity 2022.3.62f3**.
